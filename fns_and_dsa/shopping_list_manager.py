@@ -17,7 +17,7 @@ def main():
             item_to_add = input("Enter the item to add: ").strip()
             if item_to_add:
                 shopping_list.append(item_to_add)
-                print(f"'{item_to_add}' added to the list.")
+                print(f"'{item_to_add}' added to the list.")/
             else:
                 print("Item name cannot be empty.")
         elif choice == '2':
